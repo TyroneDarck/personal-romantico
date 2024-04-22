@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <h1>Bienvenida</h1>
+    <h2>Esta es una pagina para mi amorshito </h2>
+    <h3>si eres mi amorshito por favor ingresa los siguientes datos:</h3>
+    <script src="/JS/bootstrap.bundle.min.js"></script>
+    <script src="/JS/funciones.js"></script>
+</head>
+<body>
+
+     <div class="contenedor">
+        <h1>Favor de ingresar sus datos</h1>
+        <form class="formulario">
+            <div class="row g-3">
+                <div class="col">
+                    <label for="Nombre">Nombre*</label>
+                  <input type="text" class="form-control" id="txtNombre" placeholder="Ej: Florencia" aria-label="Nombre">
+                </div>
+                <div class="col">
+                    <label for="Apellido">Apellido*</label>
+                  <input type="text" class="form-control" id="txtApellido" placeholder="Ej: Solis" aria-label="Apellido">
+                </div>
+            </div>
+
+            <div class="row g-3">
+            <div class="col">
+                <label for="date">Fecha nac.*</label>
+                <input type="date" class="form-control" id="dtFechaNac">
+            </div>
+            <div class="col">
+                <label for="Edad">Edad*</label>
+                <input type="number" class="form-control" id="nbEdad" placeholder="Ej: 20" aria-label="Edad">
+            </div>
+            </div>
+            <div class="row">
+                <label for="Correo">Correo*</label>
+                <input type="email" class="form-control" id="txtCorreo" placeholder="Ej: nombre@gmail.com" aria-label="Correo">
+            </div>
+            <br>
+            <div class="ingresa">
+                <input type="button" class="form-control" id="btnIngresa" value="Ingrese" onclick="valida()">
+            </div>
+
+
+        </form>
+     </div>
+
+
+
+
+
+</body>
+
+<footer>
+    <p>creado por Darck</p>
+</footer>
+</html>

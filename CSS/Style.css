@@ -1,0 +1,49 @@
+h1,h2,h3{
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Skincake';
+    
+}
+
+
+body{
+    background-color: rgb(48, 144, 182);
+    position: relative;
+}
+
+.contenedor{
+    padding: 30px;
+    border: 2px solid rgb(93, 197, 191);
+    border-radius: 10px;
+    background-color: rgb(158, 151, 151);
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,60%);
+}
+
+.contenedor h1{
+    color: blue;
+
+}
+@font-face {
+    font-family: 'love';
+    src: url(/fonts/PinkyLove.otf);
+}
+@font-face {
+    font-family: 'Skincake';
+    src: url(/fonts/Skincake.otf);
+}
+@font-face {
+    font-family: 'hola';
+    src: url(/fonts/Starshines.otf);
+}
+
+
+
+#btn-ingresa{
+    color: rgb(226, 143, 84);
+    background: rgba(244, 195, 33, 0.705);
+    font-family: 'hola';
+}
